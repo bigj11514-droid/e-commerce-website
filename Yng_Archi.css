@@ -59,13 +59,14 @@
     input{
         border: 2px solid rgb(119, 0, 255);
         border-radius: 15px;
-        min-width: 50vw;
+        width: 80%;
         height: 35px;
         cursor: pointer;
         background-image: linear-gradient(rgb(27, 19, 37));
     }
-    .search-btn{
+    .search-btn, .hook{
         max-height: 100vh;
+        margin: 0px 10px;
     }
     input:hover{
         background-image: linear-gradient(rgb(36, 39, 39),rgb(96, 16, 201));
@@ -85,9 +86,9 @@
 
     }
     .profile{
-        width: 15%;
+        white-space: nowrap;
+        padding: 0px 5px;
         height: 30px;
-        align-self: center;
     }
     .hook{
         min-width: 100%;
